@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <title>Lucas Lavallen - portfolio</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/L&L/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="https://github.com/lucaslavallen" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://drive.google.com/drive/folders/1hn-pwzT_dtN4XEz4-NbAA8SPDcOeYgIH?usp=share_link" target="_blank"><i class="fa-brands fa-google-drive"></i></a>
+                        <a href="https://www.linkedin.com/in/lucas-lavallen-061373251" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=b5oafh7r392w&utm_content=q0vs3e4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Lucas Lavallen</span>, Desarrollador Front-End</h2>
+                <p class="descripcion">estudiando Licenciatura en Sistemas de Informacion</p>
+                <a href="#portfolio">Ir a Portafolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto-de-portafolio.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi</p>
+            <h2>Hola, Soy <span>Lucas Lavallen</span> </h2>
+            <h3>Desarrollador Front-End</h3>
+            <p>Me considero una persona apasionada por la
+                tecnología, el desarrollo software y la fotografia.
+                Uno de mis principales objetivos es continuar ampliando
+                mis conocimientos y desarrollando mis habilidades
+                personales y profesionales en el sector IT. </p>
+            <p>Te invito a descargar mi C.V</p>
+            <a href="C.V/Curriculum-perfil-programacion-23 .pdf" target="_blank" >Descargar CV</a>
+        </div>
+    </section>
+
+   
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto-1.jpg" alt="">
+                <div class="info">
+                    <h4>Proyecto de FontEnd-mentor</h4>
+                    <p>HTML - CSS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/calculadora.png" alt="">
+                <div class="info">
+                    <h4>Calculadora</h4>
+                    <p>HTML - CSS - JS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Login-page.png" alt="">
+                <div class="info">
+                    <h4>Login Page</h4>
+                    <p>HTML - CSS</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Galeria.png" alt="">
+                <div class="info">
+                    <h4>Galeria de imagenes</h4>
+                    <p>HTML - CSS</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fondo-negro.jpg" alt="">
+                <div class="info">
+                    <h4>Sin Proyecto</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fondo-negro.jpg" alt="">
+                <div class="info">
+                    <h4>Sin Proyecto</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fondo-negro.jpg" alt="">
+                <div class="info">
+                    <h4>Sin proyecto</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fondo-negro.jpg" alt="">
+                <div class="info">
+                    <h4>Sin Proyecto</h4>
+                    <p></p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/fondo-negro.jpg" alt="">
+                <div class="info">
+                    <h4>Sin Proyecto</h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contacto</h3>
+        <div class="contenedor-form">
+            <form action="https://formspree.io/f/xyyvqlbe" method="POST" target="_blank">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo" class="input-mitad" name="nombre" required>
+                    <input type="email" placeholder="Correo electronico" class="input-mitad" name="corro-electronico" required>
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Asunto" class="input-full" name="asunto">
+                </div>
+                <div class="fila">
+                    <textarea cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full" name="mensaje"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar" name="enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Lucas Lavallen &copy; - 2023</p>
+        <div class="redes">
+            <a href="https://github.com/lucaslavallen" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lucas-lavallen-061373251" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?i=b5oafh7r392w&utm_content=q0vs3e4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="./JavaScript/script.js"></script>
+</body>
+
+</html>
