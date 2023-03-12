@@ -530,9 +530,10 @@
 
             /* Dark mode button */
 
-            .ms-2 {
-                display: block;
-                right: 20px
+            .darkModeSwitch {
+                display: flex;
+                left: 11px;
+                
             }
 
             
