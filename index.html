@@ -27,6 +27,12 @@
                         </ul>
                     </nav>
 
+                    <!-- Dark-mode -->
+                    <button class="darkModeSwitch ms-2" id="switch">
+                        <span><i class="fas fa-sun"></i></span>
+                        <span><i class="fas fa-moon"></i></span> 
+                        </button>
+                        <!-- End-Dark-mode -->
                     <!-- Icono del menu responsive -->
                     <div id="icono-nav" onclick="responsiveMenu()">
                         <i class="fa-solid fa-bars"></i>
@@ -36,14 +42,14 @@
                     <div class="redes">
                         <a href="https://github.com/lucaslavallen" target="_blank"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.linkedin.com/in/lucas-lavallen-061373251" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/invites/contact/?i=b5oafh7r392w&utm_content=q0vs3e4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a id="instagram" href="https://www.instagram.com/invites/contact/?i=b5oafh7r392w&utm_content=q0vs3e4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </header>
-            <div class="presentacion">
+            <div class="presentacion" >
                 <p class="bienvenida">Bienvenidos</p>
                 <h2>Soy <span>Lucas Lavallen</span>, Desarrollador Front-End</h2>
-                <p class="descripcion">estudiando Licenciatura en Sistemas de Informacion</p>
+                <p class="descripcion"><b class="txt">Estudiando Licenciatura en Sistemas de Informacion</b></p>
                 <a href="#portfolio">Ir a Portafolio</a>
             </div>
         </div>
@@ -52,17 +58,18 @@
     <!-- SECCION S O B R E M I -->
     <section id="sobremi">
         <div class="contenedor-foto">
-            <img src="img/foto-de-portafolio.jpg" alt="">
+            <img src="img/foto-de-portafolio.jpg" alt="Foto de foto perfil">
         </div>
         <div class="sobremi">
             <p class="titulo-seccion">Sobre Mi</p>
             <h2>Hola, Soy <span>Lucas Lavallen</span> </h2>
             <h3>Desarrollador Front-End</h3>
             <p>Me considero una persona apasionada por la
-                tecnología, el desarrollo software y la fotografia.
+                tecnología y el desarrollo software.
                 Uno de mis principales objetivos es continuar ampliando
                 mis conocimientos y desarrollando mis habilidades
                 personales y profesionales en el sector IT. </p>
+                
             <p>Te invito a descargar mi C.V</p>
             <a href="C.V/CV-actualizado.pdf" target="_blank" >Descargar CV</a>
         </div>
@@ -123,14 +130,14 @@
     <!-- SECCION FOOTER -->
     <footer>
         <p>Lucas Lavallen &copy; - 2023</p>
-        <div class="redes">
+        <div id="redes">
             <a href="https://github.com/lucaslavallen" target="_blank"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.linkedin.com/in/lucas-lavallen-061373251" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://www.instagram.com/invites/contact/?i=b5oafh7r392w&utm_content=q0vs3e4" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>
 
     </footer>
-
+    <script type="text/javascript" src="JavaScript/dark-mode.js"></script>
     <script src="./JavaScript/script.js"></script>
 </body>
 
