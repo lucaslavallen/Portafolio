@@ -25,3 +25,6 @@ function responsiveMenu() {
 }
 
 
+// Efecto scroll
+
+ScrollReveal().reveal('.headline');
