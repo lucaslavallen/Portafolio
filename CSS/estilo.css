@@ -165,7 +165,7 @@
             padding: 20px;
             width: 100%;
             border-radius: 20px;
-            background-color: #f3f3f3;
+            background-color:   #8a8c8c9b;
         }
         
         #sobremi .sobremi {
@@ -285,6 +285,17 @@
         #portfolio .fila .proyecto:hover .info {
             opacity: 1;
             bottom: 0;
+        }
+
+        .ver {
+            display: inline-block;
+            text-decoration: none;
+            color: #ca1b1b;
+            border-radius: 25px;
+            border: 1px solid #cbbfbf;
+            padding: 10px 15px;
+            margin-top: 25px;
+            transition: .5s;
         }
         /* *********************/
         /* seccion C O N T A C T O */
